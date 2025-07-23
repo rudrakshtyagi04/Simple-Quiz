@@ -4,7 +4,7 @@ A visually stunning and interactive quiz application built using **HTML**, **CSS
 
 
 ---
-# Live demo: [Click here](https://rudraksh07.github.io/simple-quiz/)
+
 ## ✨ Features
 
 - ✅ Dynamic quiz questions and answers
