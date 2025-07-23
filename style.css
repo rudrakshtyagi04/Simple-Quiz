@@ -1,11 +1,70 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
-html,body{
-  height:100%;
-  width:100%;
-  box-sizing:border-box;
+body, html {
+  height: 100%;
+  width: 100%;
 }
 
+body {
+  background: url("https://plus.unsplash.com/premium_photo-1665520347002-e39a2a64f74c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHF1aXp8ZW58MHx8MHx8fDA%3D") no-repeat center /cover;
+}
+
+.app {
+  background: url("quizimg.png") no-repeat center center / cover;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.app h1 {
+  font-size: 24px;
+  color: #001e4d;
+  font-weight: 600;
+  border-bottom: 1px solid #333; /* Fixed typo from '1ox' */
+  padding-bottom: 30px;
+}
+
+.question {
+  font-size: 18px;
+  color: #001e4d;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.btn {
+  background-color: #ffffff;
+  color: #222;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #222;
+  color: #fff;
+}
+
+.next-btn {
+  background: #001e4d;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
