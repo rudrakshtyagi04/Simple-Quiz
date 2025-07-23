@@ -5,6 +5,9 @@ A visually stunning and interactive quiz application built using **HTML**, **CSS
 
 ---
 
+## Live Demo
+- Visit the live demo of the website at the link https://rudrakshtyagi04.github.io/Simple-Quiz/
+
 ## ✨ Features
 
 - ✅ Dynamic quiz questions and answers
